@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #F4D04E;
+      font-family: 'Figtree', sans-serif;
+      overflow-y: hidden;
+    }
+    .main{
+      width: 340px;
+      height: 500px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 20px;
+      box-shadow: 10px 10px 0px 2px black;
+      padding: 15px;
+    }
+    .button{
+      background-color:#F4D04E;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+      width: fit-content;
+      padding: 5px 10px;
+    }
+    #image img{
+      border-radius: 20px;
+    }
+    #third{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div id="image">
+      <img src="./assets/images/illustration-article.svg" alt="illustration-article">
+    </div>
+    <div id="text">
+      <div id="first">
+        <p class="button">Learning</p>
+        <p>Published 21 Dec 2023</p>
+      </div>
+      <div id="second">
+        <h2>HTML & CSS foundations</h2>
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+      <div id="third">
+        <img src="./assets/images/image-avatar.webp" alt="avatar">
+        <p>Greg Hooper</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
